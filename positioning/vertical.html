@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title Page</title>
+
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+  <style>
+
+    /* Section */
+
+    .section{
+      padding: 2em;
+      border: 10px dashed silver;
+      margin: 2em auto;
+    }
+
+    .box1{
+      width: 900px;
+      height: 400px;
+      background-color: lightskyblue;
+    }
+
+    .section label{
+      width: 50%;
+      float: left;
+      text-align: right;
+      margin-right: 1em;
+      font-size: 2em;
+    }
+
+    .section input[type=radio]{
+      width: 10%;
+      float: left;
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="text-center">CSS: Vertical and Horizontal Positioning</h1>
+  </div>
+</div>
+
+
+<div class="container">
+
+  <div class="section box1">
+    <div class="input-radio">
+      <label>Radio Button 1</label>
+      <input type="radio">
+    </div>
+    <div class="input-radio">
+      <label>Radio Button2</label>
+      <input type="radio">
+    </div>
+    <div class="input-radio">
+      <label>Radio Button 3</label>
+      <input type="radio">
+    </div>
+  </div>
+
+  <div class=" box1">
+    <h2>Bootstrap Option</h2>
+    <p>This content box displays the padding, borders and margin relate to each other.</p>
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option two can be something else and selecting it will deselect option one
+      </label>
+    </div>
+    <div class="radio disabled">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+        Option three is disabled
+      </label>
+    </div>
+  </div>
+
+  <div class="section box1">
+    <h2>Box Sizing - Content Box</h2>
+    <p>This content box displays the padding, borders and margin relate to each other.</p>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+
+    //Javascript here
+
+  });
+
+</script>
+</body>
+
+</html>
